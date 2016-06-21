@@ -1,4 +1,4 @@
-angular.module('portfolioApp', [
+angular.module('grantApp', [
   'ui.router', 
   ])
   .config(['$stateProvider', '$urlRouterProvider', '$locationProvider', function($stateProvider, $urlRouterProvider, $locationProvider) {
@@ -9,9 +9,6 @@ angular.module('portfolioApp', [
         views: {
           '': {
             templateUrl: '/views/main.html'
-          },
-          'nav@main': {
-            templateUrl: '/views/assets/constructionNav.html'
           },
           'body@main': {
             templateUrl: '/views/partials/landing-partial.html'
@@ -25,10 +22,6 @@ angular.module('portfolioApp', [
           '': {
             templateUrl: '/views/main.html'
           },
-          'nav@team': {
-            templateUrl: '/views/assets/constructionNav.html',
-            
-          },
           'body@team':{
             templateUrl: '/views/partials/team-partial.html',
           }
@@ -40,10 +33,6 @@ angular.module('portfolioApp', [
         views: {
           '': {
             templateUrl: 'views/main.html'
-          },
-          'nav@mission': {
-            templateUrl: '/views/assets/constructionNav.html',
-            
           },
           'body@mission':{
             templateUrl: '/views/partials/mission-partial.html',
@@ -62,7 +51,6 @@ angular.module('portfolioApp', [
           }
         }
       })
-
 
     $locationProvider.html5Mode({
       enabled: true,
