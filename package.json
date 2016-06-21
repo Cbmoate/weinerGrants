@@ -1,0 +1,25 @@
+{
+  "name": "mattweiner",
+  "version": "1.0.0",
+  "description": "website for MW&ASSOC",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "grants",
+    "grant",
+    "services",
+    "commercial"
+  ],
+  "author": "CB Moate",
+  "license": "ISC",
+  "dependencies": {
+    "angular-ui-router": "^0.3.1",
+    "body-parser": "^1.15.2",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.1"
+  }
+}
