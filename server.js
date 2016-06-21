@@ -1,7 +1,14 @@
-var express = require('express');
+//Express
+var express = require ('express');
 var app = express();
-var PORT = process.env.PORT || 8000;
+var PORT = process.env.PORT || 8999;
+
+app.use(express.static(__dirname+"/public"));
+
+app.get('/', function(req,res){
+  res.sendFile(process.cwd() + "/index.html");
+});
 
 app.listen(PORT, function(){
-  console.log('Listening on ', PORT);
+  console.log("Goliath Online on port %s", PORT);
 });
