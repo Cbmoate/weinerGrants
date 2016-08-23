@@ -19,3 +19,16 @@
   width: 100%;
   padding-bottom: 20px;
 }
+
+.contactButton{
+  
+  margin-bottom: 30px;
+}
+
+.contactInput{
+  margin-bottom: 5px;
+}
+
+#contactReason{
+  resize:none;
+}
