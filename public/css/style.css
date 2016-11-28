@@ -1,7 +1,3 @@
-.footer {
-  background-color: #85e085;
-  height: 80px;
-}
 
 .banner{
   width: 40px:;
@@ -20,9 +16,17 @@
   padding-bottom: 20px;
 }
 
+.navbar{
+  background-color: ;
+
+}
+
+.partial-thing{
+  background-color: #6F7A2D;
+}
+
 .contactButton{
-  
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .contactInput{
@@ -31,4 +35,9 @@
 
 #contactReason{
   resize:none;
+}
+
+.footer {
+  background-color: #A67B58;
+  height: 80px;
 }
