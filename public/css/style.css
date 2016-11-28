@@ -17,12 +17,12 @@
 }
 
 .navbar{
-  background-color: ;
+  background-color: #037584;
 
 }
 
-.partial-thing{
-  background-color: #6F7A2D;
+.viewBox{
+  background-color: #007849;
 }
 
 .contactButton{
@@ -38,6 +38,6 @@
 }
 
 .footer {
-  background-color: #A67B58;
+  background-color: #037584;
   height: 80px;
 }
