@@ -16,37 +16,48 @@
 
     <!--custon CSS-->
     <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+    <!--Font-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+
   </head>
   <body ng-app='grantApp'>
     <div class="partial-thing">
       <nav class="navbar navbar-default">
         <div class="container-fluid">
           <div class="navbar-header">
-            <a class="navbar-brand" href="/">
-              <img class="banner" alt="Brand" src="/images/logo.jpg">
+            <a class="" href="/">
+              <img class="banner" alt="Brand" src="/images/MWA_logo.jpg">
             </a>
             <a href="team">
-              <button type="button" class="btn btn-default navbar-btn">Our Team</button>
+              <button type="button" class="nav-button">Our Team</button>
             </a>
             <a href="mission">
-              <button type="button" class="btn btn-default navbar-btn">Our Mission</button>
+              <button type="button" class="nav-button">Our Mission</button>
+            </a>
+            <a href="results">
+              <button type="button" class="nav-button">Results</button>
             </a>
             <a href="contact">
-              <button type="button" class="btn btn-default navbar-btn">Contact Us</button>
+              <button type="button" class="nav-button">Contact Us</button>
             </a>
           </div>
         </div>
       </nav>
       <div class="row">
-        <img class="topBanner img-responsive" src="/images/twinLights.jpg">
+        <img class="topBanner img-responsive" src="/images/writing.jpg">
       </div>
       
       <div ui-view></div>
     </div>
     <div class="row">
       <div class="footer">
-        <p class="lead text-center">&copy; 2016 CBGDesigns.</p>
-        <p class="text-center">Twin Lights image © 2007 Howard Lamhut</p>
+
+        
+      </div>
+      <div class="copy-writes">
+        <h5 class="text-center white-text">&copy; 2016 CBGDesigns.</h5>
+        <h5 class="text-center">Twin Lights image © 2007 Howard Lamhut</h5>
       </div>
     </div>
 

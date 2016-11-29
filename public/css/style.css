@@ -1,7 +1,11 @@
+body{
+  font-family: 'Roboto Slab', serif;
+}
 
 .banner{
   width: 40px:;
-  height: 30px;
+  height: 50px;
+  
 }
 
 .bioPic{
@@ -10,14 +14,47 @@
   padding-bottom: 10px;
 }
 
-.topBanner{
-  opacity: 5%;
-  width: 100%;
-  padding-bottom: 20px;
+.contactButton{
+  margin-bottom: 30px;
+}
+
+.contactInput{
+  margin-bottom: 5px;
+}
+
+.footer {
+  background-color: #077562;
+  height: 80px;
+  text-decoration-color: white;
 }
 
 .navbar{
-  background-color: #037584;
+  background-color: #077562;
+
+}
+
+.nav-button{
+  background-color: #077562; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: .42s;
+}
+
+.nav-button:hover {
+    background-color: white;
+    color: #077562;
+}
+
+.topBanner{
+  opacity: 5%;
+  padding-bottom: 20px;
+  max-height: : 200px;
+  width: 100%;
 
 }
 
@@ -25,19 +62,8 @@
   background-color: #007849;
 }
 
-.contactButton{
-    margin-bottom: 30px;
-}
-
-.contactInput{
-  margin-bottom: 5px;
-}
-
 #contactReason{
   resize:none;
 }
 
-.footer {
-  background-color: #037584;
-  height: 80px;
-}
+
