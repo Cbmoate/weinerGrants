@@ -44,10 +44,22 @@ angular.module('grantApp', [
         url: '/contact',
         views: {
           '': {
-            templateUrl: 'views/main.html'
+            templateUrl: '/views/main.html'
           },
           'body@contact':{
             templateUrl: '/views/partials/contact-partial.html',
+          }
+        }
+      })
+
+      .state('results', {
+        url: '/results',
+        views: {
+          '': {
+            templateUrl: '/views/main.html'
+          },
+          'body@results':{
+            templateUrl: '/views/partials/results-partial.html'
           }
         }
       })

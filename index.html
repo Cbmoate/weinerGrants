@@ -2,7 +2,7 @@
 <html ng-init>
   <head>
     <meta charset="utf-8">
-    <title>Matt Weiner and Associates</title>
+    <title>Matthew Weiner and Associates</title>
     <!--jquery-->
     <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
 
@@ -16,39 +16,56 @@
 
     <!--custon CSS-->
     <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+    <!--Font-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+
   </head>
   <body ng-app='grantApp'>
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="/">
-            <img class="banner" alt="Brand" src="/images/logo.jpg">
-          </a>
-          <a href="/team">
-            <button type="button" class="btn btn-default navbar-btn">Our Team</button>
-          </a>
-          <a href="/mission">
-            <button type="button" class="btn btn-default navbar-btn">Our Mission</button>
-          </a>
-          <a href="contact">
-            <button type="button" class="btn btn-default navbar-btn">Contact Us</button>
-          </a>
+    <div class="partial-thing">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="" href="/">
+              <img class="banner" alt="Brand" src="/images/MWA_logo.jpg">
+            </a>
+            <a href="team">
+              <button type="button" class="nav-button">Our Team</button>
+            </a>
+            <a href="mission">
+              <button type="button" class="nav-button">Our Mission</button>
+            </a>
+            <a href="results">
+              <button type="button" class="nav-button">Results</button>
+            </a>
+            <a href="contact">
+              <button type="button" class="nav-button">Contact Us</button>
+            </a>
+          </div>
         </div>
+      </nav>
+      <div class="row">
+        <img class="topBanner img-responsive" src="/images/writing.jpg">
       </div>
-    </nav>
-    <div class="row">
-      <img class="topBanner img-responsive" src="/images/twinLights.jpg">
-    </div>
-    
+      
       <div ui-view></div>
-   
+    </div>
     <div class="row">
       <div class="footer">
-        <p class="lead text-center">&copy; 2016 CBGDesigns.</p>
-        <p class="text-center">Twin Lights image © 2007 Howard Lamhut</p>
+        <div class="col-md-4 footer-text">
+          <h5>Email: email@mail.com</h5>
+          <h5>Telephone: 732-000-0000</h5>
+          <h5>Address: 534 Street, Red Bank NJ 07701</h5>
+        </div>
+      </div>
+      <div class="copy-writes">
+        <h5 class="text-center white-text">&copy; 2016 CBGDesigns.</h5>
+        <h5 class="text-center">Twin Lights image © 2007 Howard Lamhut</h5>
       </div>
     </div>
+
     <!--custom JS-->
     <script type="text/javascript" src="/js/app.js"></script>
+    <script type="text/javascript" src="/js/controllers/email.js"></script>
   </body>
 </html>
